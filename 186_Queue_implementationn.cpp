@@ -64,8 +64,6 @@ public:
     }
 };
 
-
-
 int main()
 {
 
@@ -74,7 +72,7 @@ int main()
     q.push(10);
     q.push(20);
     q.push(30);
-    
+
     cout<<q.front1()<<endl;
     q.pop();
     q.pop();

@@ -13,7 +13,7 @@ int main()
 
     // cout<<q;
 
-
+   
     cout<<"Size of queue: "<<q.size()<<endl;
     cout<<"Front: "<<q.front()<<endl;
     cout<<"Back: "<<q.back()<<endl;
