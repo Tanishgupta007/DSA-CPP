@@ -17,7 +17,7 @@ public:
     }
 };
 
-Node *insertIntoBST(Node *root, int d)
+Node *  insertIntoBST(Node *root, int d)
 {
 
     // firest element

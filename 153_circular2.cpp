@@ -90,7 +90,7 @@ int main()
     // Node *node1 = new Node(10);
     Node*tail = NULL;
     insertNode(tail,5,10);
-    // insertNode(tail,10,20);
+    insertNode(tail,10,20);
     print(tail);
     cout<<endl;
     deleteNode(tail,10);
