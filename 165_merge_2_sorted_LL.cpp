@@ -24,7 +24,7 @@
     };
 
 ************************************************************/
-/*
+
 Node<int>* solve(Node<int>* first, Node<int>* second){
         if(first->next == NULL){
             first->next = second;
@@ -44,7 +44,7 @@ Node<int>* solve(Node<int>* first, Node<int>* second){
             next2 = curr2->next;
             curr2->next = next1;
 
-            curr1 = curr2;
+            curr1 = curr2;//shifting position to next
             curr2 = next2;
         }else{
             curr1 = next1;
@@ -55,13 +55,7 @@ Node<int>* solve(Node<int>* first, Node<int>* second){
                 return first;
             }
         }
-
-
-
-
     }
-
-
     return first;
 
 }
@@ -82,11 +76,6 @@ Node<int>* sortTwoLists(Node<int>* first, Node<int>* second)
         return solve(second,first);
     }
 }
-
-
-
-
-*/
 
 
 

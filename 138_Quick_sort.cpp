@@ -65,9 +65,9 @@ void QuickSort(int arr[], int start, int end)
 }
 int main()
 {
-    int arr[5] = {234, 21, 312, 13, 2};
+    int arr[6] = {5, 1, 1, 2, 0,0};
 
-    int size = 5;
+    int size = 6;
 
     QuickSort(arr, 0, size - 1);
 

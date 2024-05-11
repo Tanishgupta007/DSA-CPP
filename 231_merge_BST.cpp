@@ -173,14 +173,14 @@ void ans(TreeNode* head, vector<int> &res){
         res.push_back(head->data);
         head= head->right;
     }
-    
+
     }
 vector<int> mergeBST(TreeNode *root1, TreeNode *root2)
 {
     TreeNode *head1 = NULL;
     TreeNode *head2 = NULL;
     //step1: convert bst into sorted linked list
-    convertToDLL(root1, head1);
+    convert     ToDLL(root1, head1);
     head1->left = NULL; //(start from right)
     convertToDLL(root2, head2);
     head2->left = NULL; //(start from right)
